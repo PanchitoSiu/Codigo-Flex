@@ -1,0 +1,31 @@
+
+10 USD to PEN
+10 PEN to EUR
+10 JPY to BOB
+
+
+
+bison -d monedas.y
+flex monedas.l
+gcc -o monedas monedas.tab.c lex.yy.c -lm
+
+
+int numMonedas = 60 / 12; 5
+
+ String cadena1 = "Hola";
+ String cadena2 = "Hola";
+
+cadena1.equals(cadena2)
+
+
+
+
+
+
+
+
+
+
+
+
+
